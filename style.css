@@ -1,0 +1,33 @@
+:root {
+    --primary: #e47e1e;
+    --light: #cff5dc;
+    --spacing: 10px;
+    --form-width: 70%;
+    --button-width: 200px;
+}
+
+form {
+    width: var(--form-width);
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: var(--spacing);
+}
+
+button {
+    background-color: var(--primary);
+    color: var(--light);
+    border-radius: 3px;
+    padding: var(--spacing);
+    width: var(--button-width);
+    margin-top: var(--spacing);
+}
+
+.card {
+    width: 50%;
+    margin: auto;
+    display: flex;
+}
+
